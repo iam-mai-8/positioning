@@ -28,7 +28,7 @@ h1.page-header{
 }
 
 main.wrapper {
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     overflow: auto;
 }
 
