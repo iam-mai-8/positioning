@@ -5,10 +5,11 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 html {
-    background-color: #40E0D0;
+    background-color: #2b4a4a;
     font-family: 'Lora', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
+    color: #94c0c2;
 }
 
 ::selection {
@@ -19,8 +20,9 @@ html {
 h1 {
     font-weight: normal;
     margin: auto;
-    background: #fff;
+    background: #94c0c2;
     line-height: 2.5em;
+    color: #000;
 }
 
 h1.page-header{
