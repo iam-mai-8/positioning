@@ -9,7 +9,7 @@ html {
     font-family: 'Lora', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
-    color: #94c0c2;
+    color: #ffffff;
 }
 
 ::selection {
@@ -22,7 +22,7 @@ h1 {
     margin: auto;
     background: #94c0c2;
     line-height: 2.5em;
-    color: #000;
+    color: #000000;
 }
 
 h1.page-header{
