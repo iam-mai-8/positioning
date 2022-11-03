@@ -2,10 +2,11 @@
 
 
 @import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-color: #40E0D0;
+    font-family: 'Lora', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
 }
@@ -23,7 +24,7 @@ h1 {
 }
 
 h1.page-header{
-    font-family: 'Tangerine',serif;
+    font-family: 'Lora',serif;
 }
 
 main.wrapper {
