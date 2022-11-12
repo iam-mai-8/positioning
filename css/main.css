@@ -9,7 +9,7 @@ html {
     font-family: 'Lora', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
-    color: #ffffff;
+    color: #2b4a4a;
     background-image:url(../Background/STScI-01EVSYW3SGEZ7ZXRQPFCS3YY5R.jpg)
 }
 
@@ -61,6 +61,44 @@ footer {
     text-align: center;
     padding: 1em;
 }
+
+/* start positioning styles */
+
+
+/* Allows box to take up full space, ignoring padding/margin */
+* {
+    box-sizing: border-box;
+  }
+  
+ /* Create two equal columns that floats next to each other */
+ .my-column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    min-height: 300px; /* Can be removed. Only for demonstration */
+  }
+   /* Clear floats after the columns */
+  .my-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+
+.text-align-center{
+    text-align:center;
+    background-color:aqua;
+ }
+  
+ .margin-auto > div{
+    margin:auto;
+    width:50%;
+    background-color:beige;
+    text-align:center;
+ }
+ 
+
+/* end positioning styles * / 
 
 /* Responsive rules */
 
@@ -119,4 +157,9 @@ footer {
         width: 100%;
     }
     
+    /* Changes width of column in mobile device */
+    .my-column {
+        width: 100%;
+      }
+ 
 }
