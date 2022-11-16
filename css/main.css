@@ -142,6 +142,18 @@ footer {
     padding: 20px 25px;
  }
  
+ /* flexible image rules start here */
+ 
+.flexible img{
+    width:100%;
+ }
+  
+ .flexible{
+    display: flex;
+    justify-content: space-evenly;
+ }
+  
+ /* flexible image rules end here */
  
  
 
